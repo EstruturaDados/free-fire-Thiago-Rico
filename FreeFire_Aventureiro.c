@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MAX_ITENS 10
+
 // Código da Ilha – Edição Free Fire
 // Nível: Aventureiro
-
-#define MAX_ITENS 10
 
 struct Item {
     char nome[50];

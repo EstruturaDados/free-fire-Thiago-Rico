@@ -46,7 +46,7 @@ void limparTela() {
 // exibirMenu():
 // Apresenta o menu principal ao jogador, com destaque para status da ordenação.
 void exibirMenu() {
-    printf("===== CODIGO DA ILHA =====\n");
+    printf("===== ORDENACAO E BUSCA BINARIA =====\n");
     printf("Status ordenacao por nome: %s\n", ordenadaPorNome ? "SIM" : "NAO");
     printf("1 - Adicionar item\n");
     printf("2 - Remover item\n");
@@ -228,7 +228,7 @@ int main() {
             case 3: listarItens(); break;
             case 4: menuDeOrdenacao(); break;
             case 5: buscaBinariaPorNome(); break;
-            case 0: printf("Encerrando...\n"); break;
+            case 0: printf("Acabou...\n"); break;
             default: printf("Opcao invalida.\n");
         }
 
